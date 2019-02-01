@@ -1,7 +1,7 @@
 {
    "manifest_version": 2,
 
-   "name": "Sense (Beta)",
+   "name": "Sense (MHE)",
    "description": "A JSON aware developer console to ElasticSearch.",
     "version": "0.9.0",
 

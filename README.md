@@ -1,45 +1,53 @@
-Sense is now part of Marvel
-=====
-
-The development of Sense has moved into Elasticsearch Marvel, you can find it here: http://www.elasticsearch.org/overview/marvel/
-
-If you have any question or find an issue, feel free to post on the elasticsearch user group: http://groups.google.com/forum/#!forum/elasticsearch
-
 Sense
 =====
 
 A JSON aware developer's interface to ElasticSearch. Comes with handy machinery such as syntax highlighting, autocomplete,
 formatting and code folding.
 
-[![Build Status](https://travis-ci.org/bleskes/sense.png)](https://travis-ci.org/bleskes/sense)
+
+
+[![Build Status](https://travis-ci.org/mheiniger/sense.svg?branch=master)](https://travis-ci.org/mheiniger/sense)
+
+This Fork
+-----
+
+The development of Sense has moved into the Elasticsearch Kibana-Console and you have to check there if you want new features: https://www.elastic.co/guide/en/kibana/current/console-kibana.html 
+
+This Fork is basically the original Chrome Extension from https://github.com/bleskes/sense_old before it was integrated into Kibana.
+
+This Fork contains just some tweaks to keep it working with Elasticsearch 6.
 
 Installation
 ------------
 
-Sense is installed as a Chrome Extension. Install it from
-the [Chrome Webstore](http://bit.ly/es_sense) .
+Sense is installed as a Chrome Extension. 
+The original extension is not on the Chrome Webstore anymore.
+
+To install it manually:
+
+Clone this repository to your machine, open Chrome, go to `chrome://extensions/`, turn on the `Developer mode`, click `Load unpacked` and select the cloned folder.
 
 Screenshots
 -----------
 
 ### Syntax highlighting
-![Syntax highlighting](https://github.com/bleskes/sense/raw/master/docs/syntaxhighlighting.png)
+![Syntax highlighting](https://github.com/mheiniger/sense/raw/master/docs/syntaxhighlighting.png)
 
 ### Auto complete
-![Auto complete](https://github.com/bleskes/sense/raw/master/docs/autocomplete.png)
+![Auto complete](https://github.com/mheiniger/sense/raw/master/docs/autocomplete.png)
 
 ### Broken JSON detection
-![Broken JSON](https://github.com/bleskes/sense/raw/master/docs/broken.png)
+![Broken JSON](https://github.com/mheiniger/sense/raw/master/docs/broken.png)
 
 ### History
-![History](https://github.com/bleskes/sense/raw/master/docs/history.png)
+![History](https://github.com/mheiniger/sense/raw/master/docs/history.png)
 
 Other goodies
 -----
 
 - Keep multiple requests at hand:
 
-  ![Multiple requests](https://github.com/bleskes/sense/raw/master/docs/requestformat.png)
+  ![Multiple requests](https://github.com/mheiniger/sense/raw/master/docs/requestformat.png)
 - Copy and paste requests as cURL
 - Resizable panels
 - Friendly keyboard shortcuts (for a complete list, click the help button):
